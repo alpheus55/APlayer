@@ -2,7 +2,11 @@
 
 -   **support playlist removeable**
 
-    remove the audio from the playlist
+    Remove the audio from the playlist
+
+-   **playlist clear menu**
+
+    Set options listClear, show the clear button at playlist
 
 -   **audioRequest option**
 

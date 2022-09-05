@@ -67,6 +67,7 @@
     {{ include './list-item.art' getObject({
         theme: options.theme,
         audio: options.audio,
+        listClear: options.listClear,
         icons: icons,
         index: 1
     }) }}
@@ -76,6 +77,7 @@
     {{ include './list-item.art' getObject({
         theme: options.theme,
         audio: options.audio,
+        listClear: options.listClear,
         icons: icons,
         index: 1
     }) }}

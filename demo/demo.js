@@ -75,6 +75,7 @@ const ap4 = new APlayer({
     mutex: true,
     theme: '#ad7a86',
     order: 'random',
+    listClear: true,
     audio: [{
         name: '光るなら',
         artist: 'Goose house',
