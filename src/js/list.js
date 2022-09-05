@@ -20,6 +20,9 @@ class List {
                 const audioIndex = parseInt(e.target.parentElement.getElementsByClassName('aplayer-list-index')[0].innerHTML) - 1;
                 this.remove(audioIndex);
                 return false;
+            } else if (e.target.className === 'aplayer-list-clear') {
+                this.clear();
+                return false;
             } else if (e.target.tagName.toUpperCase() === 'LI') {
                 target = e.target;
             } else {

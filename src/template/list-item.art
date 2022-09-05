@@ -11,3 +11,6 @@
     <span class="aplayer-list-author">{{ $value.artist }}</span>
 </li>
 {{/each}}
+<li>
+    <div class="aplayer-list-clear" >{{@ icons.delete }}</div>
+</li>

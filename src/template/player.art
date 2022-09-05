@@ -67,6 +67,7 @@
     {{ include './list-item.art' getObject({
         theme: options.theme,
         audio: options.audio,
+        icons: icons,
         index: 1
     }) }}
 </ol>
@@ -75,6 +76,7 @@
     {{ include './list-item.art' getObject({
         theme: options.theme,
         audio: options.audio,
+        icons: icons,
         index: 1
     }) }}
 </ol>
