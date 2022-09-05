@@ -17,8 +17,8 @@ class List {
         this.player.template.list.addEventListener('click', (e) => {
             let target;
             if (e.target.className === 'aplayer-list-remove') {
-                const index = e.target.dataset.index;
-                this.remove(index);
+                const audioIndex = parseInt(e.target.parentElement.getElementsByClassName('aplayer-list-index')[0].innerHTML) - 1;
+                this.remove(audioIndex);
                 return false;
             } else if (e.target.tagName.toUpperCase() === 'LI') {
                 target = e.target;

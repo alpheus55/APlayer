@@ -4,7 +4,7 @@
     <span class="aplayer-list-index">{{ $index + index }}</span>
     <span class="aplayer-list-title">{{ $value.name }}</span>
     {{if $value.removeable}} 
-    <span class="aplayer-list-remove" data-index="{{$index}}">✖</span> 
+    <span class="aplayer-list-remove">✖</span> 
     {{else}}
     <span class="aplayer-list-occupied"></span> 
     {{/if}}
