@@ -1,4 +1,5 @@
 import tplListItem from '../template/list-item.art';
+import Icons from './icons';
 import utils from './utils';
 import smoothScroll from 'smoothscroll';
 
@@ -84,6 +85,8 @@ class List {
         this.player.template.list.innerHTML += tplListItem({
             theme: this.player.options.theme,
             audio: audios,
+            icons: Icons,
+            listClear: wasEmpty && this.player.options.listClear,
             index: this.audios.length + 1,
         });
 

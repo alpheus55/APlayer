@@ -655,20 +655,26 @@ $aplayer-height-lrc: $aplayer-height + $lrc-height - 6;
                 height: 1px;
                 float: right;
             }
-            .aplayer-list-clear{
-                height: 32px;
-                margin-left:-15px;
-                text-align: center;
+        }
 
-                svg{
-                    width: 22px;
-                    height: 22px;
-                    display: inline-block;
-                    margin-top: 5px;
-                    pointer-events: none;
-                    path{
-                        fill:#666;
-                    }
+        .aplayer-list-clear{
+            height: 32px;
+            margin-left:-15px;
+            text-align: center;
+            cursor: pointer;
+
+            &:hover {
+                background: #efefef;
+            }
+
+            svg{
+                width: 22px;
+                height: 22px;
+                display: inline-block;
+                margin-top: 5px;
+                pointer-events: none;
+                path{
+                    fill:#666;
                 }
             }
         }

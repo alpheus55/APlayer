@@ -1,3 +1,6 @@
+{{if listClear}}
+<div class="aplayer-list-clear" >{{@ icons.delete }}</div>
+{{/if}}
 {{each audio}}
 <li>
     <span class="aplayer-list-cur" style="background-color: {{ $value.theme || theme }};"></span>
@@ -11,8 +14,3 @@
     <span class="aplayer-list-author">{{ $value.artist }}</span>
 </li>
 {{/each}}
-{{if listClear}}
-<li>
-    <div class="aplayer-list-clear" >{{@ icons.delete }}</div>
-</li>
-{{/if}}
